@@ -1,2 +1,2 @@
 # weathersystem
-A weather system test environment
+A weather system simulation
