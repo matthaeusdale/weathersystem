@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Particle System</title>
+    <style>
+      #canvas-container {
+        position: relative;
+        width: 1000px;
+        height: 600px;
+        margin: 0 auto;
+        border: 2px solid grey;
+        background-color: grey;
+      }
+
+      #button-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      body {
+			background-color: grey;
+		}
+    </style>
+  </head>
+  <body>
+    <div id="canvas-container">
+        <canvas id="canvas" width="1000" height="600"></canvas>
+    </div>
+
+    <div id="button-container">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="snow">Snow</button>
+        <button id="rain">Rain</button>
+    </div>
+
+    <script defer src="particle-system.js"></script>
+  </body>
+</html>
